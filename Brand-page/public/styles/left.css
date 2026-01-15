@@ -1,0 +1,136 @@
+
+.left{
+    width: 40%;
+    height: 80vh;
+    padding-top: 7vh;
+}
+
+.left h1{
+   font-size: 108px;   
+  line-height: 102px; 
+  font-weight: 800;
+  margin-bottom: 3vh;
+}
+
+.left .text{
+    width: 75%;
+    height: 15vh;
+    color:#5A5959;
+    font-weight: 600;
+    size: 16px;
+    line-height: 1.5;
+    font-style: bold;
+    margin-bottom: 1vh;
+}
+
+.left span{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    height: 4vh;
+}
+
+.left span button{
+    width: 150px;
+    height: 38px;
+    font-weight: 600;
+}
+
+.btn1{
+       color:#fff;
+       background-color:#D01C28;
+       border: none
+;
+}
+.btn2{
+       color:#5A5959;
+       border: 2px solid #5A5959;
+}
+.tagbox{
+    margin-top: 3vh;
+}
+.tagbox p{
+    color: #5A5959;
+    font-size: small;
+    font-weight: 400;
+    margin-bottom: 1vh;
+}
+.tagbox img {
+    width: 20px;
+    margin-right: 2%;
+}
+
+@media screen and (max-width: 480px) {
+    .left{
+    width: 100%;
+    height: 100vh;
+    padding-top: 7vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.left h1{
+   font-size: 28px;   
+  line-height: 1.5; 
+  font-weight: 800;
+  margin: 3vh;
+  align-content: center;
+}
+
+.left .text{
+    width: 100%;
+    color:#5A5959;
+    font-weight: 600;
+    size: 16px;
+    line-height: 2;
+    font-style: bold;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    align-content: center;
+    height: 30vh;
+}
+
+.left span{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 10vh;
+    align-items: center;
+}
+
+.left span button{
+    width: 150px;
+    height: 38px;
+    font-weight: 600;
+}
+
+.btn1{
+       color:#fff;
+       background-color:#D01C28;
+       border: none
+;
+}
+.btn2{
+       color:#5A5959;
+       border: 2px solid #5A5959;
+}
+.tagbox{
+    margin-top: 3vh;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.tagbox p{
+    color: #5A5959;
+    font-size: small;
+    font-weight: 400;
+    margin-bottom: 1vh;
+}
+.tagbox img {
+    width: 50px;
+    margin: 15%;
+}
+
+}
